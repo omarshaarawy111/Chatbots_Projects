@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": -355,
+        "y": 60
+      }
+    },
+    {
+      "id": "skill-90e020",
+      "position": {
+        "x": -83,
+        "y": 217
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "entry",
+      "sourcePort": "out0",
+      "target": "skill-90e020",
+      "points": [
+        {
+          "x": -155,
+          "y": 103
+        },
+        {
+          "x": -83,
+<<<<<<< HEAD
+          "y": 234
+=======
+          "y": 247
+>>>>>>> 491e19e36a105f9b8a1d98e54a51833a6f1a2522
+        }
+      ]
+    }
+  ]
+}

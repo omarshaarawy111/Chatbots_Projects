@@ -1,0 +1,79 @@
+[
+  {
+    "id": "builtin_text-Gj3Daw",
+    "formData": {
+      "text$en": "Hello , I am you assistant to get the USA population  number for any year",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-12T10:10:51.460Z",
+    "modifiedOn": "2024-05-12T10:10:51.460Z"
+  },
+  {
+    "id": "builtin_text-glVzNH",
+    "formData": {
+      "text$en": "Please enter the year",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-12T10:13:37.497Z",
+    "modifiedOn": "2024-05-12T10:13:37.497Z"
+  },
+  {
+    "id": "builtin_text-thDh88",
+    "formData": {
+      "text$en": "USA population in {{event.state.session.population_resp.body.data.0.Year}} is {{event.state.session.population_resp.body.data.0.Population}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-12T11:11:49.156Z",
+    "modifiedOn": "2024-05-12T11:33:31.681Z"
+  },
+  {
+    "id": "builtin_text-VY_sqo",
+    "formData": {
+      "text$en": "Sorry . Something happen please try again later !",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-12T11:14:43.729Z",
+    "modifiedOn": "2024-05-12T11:14:43.729Z"
+  },
+  {
+    "id": "builtin_text-mfXeZw",
+    "formData": {
+      "text$en": "Year value is invalid . Please type the value again . Example 2019",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-12T14:36:20.079Z",
+    "modifiedOn": "2024-05-12T14:36:20.079Z"
+  },
+  {
+    "id": "builtin_text-takH8n",
+    "formData": {
+      "text$en": "Dog Image!!!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-14T09:46:43.617Z",
+    "modifiedOn": "2024-05-14T09:46:43.617Z"
+  },
+  {
+    "id": "builtin_text-BLxloY",
+    "formData": {
+      "text$en": "Invalid Choice . Please Select Again !",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-14T11:24:05.906Z",
+    "modifiedOn": "2024-05-14T11:24:05.906Z"
+  }
+]

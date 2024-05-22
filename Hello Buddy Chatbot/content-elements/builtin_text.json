@@ -1,0 +1,35 @@
+[
+  {
+    "id": "builtin_text-PKwMc8",
+    "formData": {
+      "text$en": "Hello",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-01T09:58:07.163Z",
+    "modifiedOn": "2024-05-01T09:58:07.163Z"
+  },
+  {
+    "id": "builtin_text-XOqjck",
+    "formData": {
+      "text$en": "What's your name?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-01T10:00:10.062Z",
+    "modifiedOn": "2024-05-01T10:00:10.062Z"
+  },
+  {
+    "id": "builtin_text-80rkgK",
+    "formData": {
+      "text$en": "Nice to meet you {{user.my_name}} !",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-01T12:58:49.901Z",
+    "modifiedOn": "2024-05-01T12:58:49.901Z"
+  }
+]

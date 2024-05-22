@@ -1,0 +1,35 @@
+[
+  {
+    "id": "builtin_image-qFySm3",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/veaw99lhq94v5ykvgvc7-flag-Stars-and-Stripes-May-1-1795.webp"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-14T11:14:01.620Z",
+    "modifiedOn": "2024-05-14T11:30:42.590Z"
+<<<<<<< HEAD
+  },
+  {
+    "id": "builtin_image-JCDUcy",
+    "formData": {
+      "typing$en": true,
+      "image$en": "{{{event.state.session.flag_image_resp}}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-21T14:30:03.831Z",
+    "modifiedOn": "2024-05-21T14:33:58.781Z"
+  },
+  {
+    "id": "builtin_image-rjP3GJ",
+    "formData": {
+      "typing$en": true,
+      "image$en": "{{{event.state.session.flag_image_resp.message}}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-21T14:39:32.872Z",
+    "modifiedOn": "2024-05-21T14:46:27.641Z"
+=======
+>>>>>>> 491e19e36a105f9b8a1d98e54a51833a6f1a2522
+  }
+]

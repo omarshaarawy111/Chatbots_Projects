@@ -1,0 +1,26 @@
+[
+  {
+    "id": "builtin_single-choice-U2iE2C",
+    "formData": {
+      "dropdownPlaceholder$en": "",
+      "choices$en": [
+        {
+          "title": "Getting usa population data ",
+          "value": "get-usa-population"
+        },
+        {
+          "title": "Getting usa flag image",
+          "value": "get-usa-flag-image"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "How Can I Help You ?",
+      "isDropdown$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-05-14T09:55:07.422Z",
+    "modifiedOn": "2024-05-14T11:31:42.877Z"
+  }
+]

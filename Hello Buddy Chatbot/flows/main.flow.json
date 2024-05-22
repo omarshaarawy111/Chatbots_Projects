@@ -1,0 +1,72 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "hello-node",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "hello-node",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "whats-name"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-PKwMc8",
+        "builtin/wait {\"delay\":\"2000\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "abaa1c7257",
+      "name": "whats-name",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save-name"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XOqjck"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "e6067ef34a",
+      "name": "save-name",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "nice-meet-you"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"my_name\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d46fec72e2",
+      "name": "nice-meet-you",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-80rkgK"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

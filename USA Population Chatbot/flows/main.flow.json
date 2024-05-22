@@ -1,0 +1,50 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "choices"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "skill-90e020",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choices",
+      "flow": "skills/choice-90e020.flow.json",
+      "next": [
+        {
+          "caption": "User picked [get-usa...]",
+          "condition": "temp['skill-choice-ret-7mejvcpkr1'] == \"get-usa-population\"",
+          "node": "usa-population-flow.flow.json"
+        },
+        {
+          "caption": "User picked [get-usa...]",
+          "condition": "temp['skill-choice-ret-7mejvcpkr1'] == \"get-usa-flag-image\"",
+          "conditionType": "raw",
+          "node": "usa-flag-image.flow.json"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}
